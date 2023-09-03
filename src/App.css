@@ -1,0 +1,37 @@
+.contenedor-app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contenedor-principal {
+  padding: 30px 0;
+  max-width: 1440px;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contanedor-buscador {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.contenedor-tabla {
+  width: 100%;
+}
+
+.contanedor-formulario {
+  width: 100%;
+}
+
+.formulario-container {
+  width: 100%; 
+  max-width: 400px;
+}
+
+@media screen and (max-width: 678px) {
+  .contenedor-principal {
+    flex-direction: column;
+  }
+}
+
